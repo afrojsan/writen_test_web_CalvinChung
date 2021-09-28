@@ -1,0 +1,56 @@
+.welcomeMain {
+    text-align: center;
+}
+
+.logo img {
+    width: 400px;
+    height: 400px;
+}
+
+.title{
+    font-size: 26px;
+}
+
+.text{
+    font-size: 18px;
+}
+
+.youtubeVideo1,
+.youtubeVideo2 {
+    width: 650px;
+    height: 365px;
+    margin: 10px;
+}
+
+.enButton,
+.zhButton {
+    margin: 5px;
+    width: 50px;
+    height: 25px;
+}
+
+@media screen and (max-width: 800px) { 
+    .main {
+        background-color: rgb(166, 174, 206);
+        height: 100vh;
+    }
+
+    .logo img{
+        width: 250px;
+        height: 250px;
+    }
+
+    .youtubeVideo1,
+    .youtubeVideo2 {
+        width: 380px;
+        height: 225px;
+    }
+
+    .title{
+        font-size: 24px;
+    }
+    
+    .text{
+        font-size: 15px;
+    }
+}
